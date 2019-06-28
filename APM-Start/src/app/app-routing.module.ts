@@ -11,7 +11,7 @@ const routePaths = [
 
 @NgModule({
   imports: [
-    RouterModule.forRoot(routePaths)
+    RouterModule.forRoot(routePaths, {enableTracing: true})
   ],
   exports: [RouterModule]
 })
